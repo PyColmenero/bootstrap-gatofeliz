@@ -1,0 +1,27 @@
+/* cambiar el ancho o alto de la barra según la horientación  */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 1px;
+}
+
+
+/* color el fondo */
+
+ ::-webkit-scrollbar-track {
+    background: #bbbbbb;
+}
+
+
+/* color de la barra */
+
+ ::-webkit-scrollbar-thumb {
+    background: #D55760;
+}
+
+
+/* color de la barra cuando :hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #af4c25;
+}
